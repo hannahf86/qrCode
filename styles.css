@@ -1,0 +1,51 @@
+/* TYPOGRAPHY */
+h1 {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    color: #1F3251;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    color: #7B879D;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+/* LAYOUT */
+
+#background {
+    background-color: #D6E2F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center; /* NOT WORKING FOR ME, NO IDEA WHY */
+}
+
+#box {
+    background-color: #fff;
+    padding: 10px;
+    max-width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 10%; /* JUSTIFY-ITEMS NOT WORKING, THIS IS WHY THIS IS HERE, SAD FACE :( */
+}
+
+#qr {
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+#text { 
+    padding:10px;
+}
+
+.attribution {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
